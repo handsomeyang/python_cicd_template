@@ -27,4 +27,7 @@ dev = [
 ]
 
 [tool.pytest.ini_options]
-testpaths = [ "tests" ]
+testpaths = ["tests"]
+
+[tool.bandit]
+targets = ["src"]

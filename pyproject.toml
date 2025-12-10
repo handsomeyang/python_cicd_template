@@ -44,5 +44,9 @@ omit = [
 [tool.coverage.report]
 fail_under = 80
 
+[tool.mypy]
+strict = true
+exclude = ["tests"]
+
 [tool.bandit]
 exclude_dirs = ["tests", ".venv"]

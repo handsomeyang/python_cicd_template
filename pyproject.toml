@@ -30,4 +30,4 @@ dev = [
 testpaths = ["tests"]
 
 [tool.bandit]
-targets = ["src"]
+exclude_dirs = ["tests", ".venv"]

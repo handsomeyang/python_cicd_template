@@ -34,7 +34,7 @@ jobs:
         run: uv run ruff format --check .
 
       - name: Run Unit Tests
-        run: uv run pytest tests
+        run: uv run pytest
 
       - name: Security Scan (Bandit)
         run: uv run bandit -r . -c pyproject.toml -ll

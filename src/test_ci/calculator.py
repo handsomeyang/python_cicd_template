@@ -11,8 +11,7 @@ def add_numbers(a, b):
     return a + b
 
 
-# A main block to demonstrate the function (optional)
-if __name__ == "__main__":
+if __name__ == "__main__":  # pragma: no cover
     print(f"Adding 5 and 3: {add_numbers(5, 3)}")
     print(f"Adding 4.5 and 1.2: {add_numbers(4.5, 1.2)}")
     try:

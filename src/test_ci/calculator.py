@@ -1,4 +1,7 @@
-def add_numbers(a, b):
+from typing import Any
+
+
+def add_numbers(a: Any, b: Any) -> Any:
     """
     Adds two numbers (integers or floats).
 

@@ -46,6 +46,7 @@ fail_under = 80
 
 [tool.mypy]
 strict = true
+files = ["src"]
 exclude = ["tests"]
 
 [tool.bandit]

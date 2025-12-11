@@ -1,5 +1,5 @@
 import pytest
-from test_ci.calculator import add_numbers
+from python_cicd_template.calculator import add_numbers
 
 
 # --- Test Case 1: Happy Path (Integers) ---

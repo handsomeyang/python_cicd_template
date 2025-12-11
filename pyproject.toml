@@ -1,5 +1,5 @@
 [project]
-name = "test-ci"
+name = "python_cicd_template"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -10,7 +10,7 @@ requires-python = ">=3.12"
 dependencies = []
 
 [project.scripts]
-test-ci = "test_ci:main"
+python-cicd-template = "python_cicd_template:main"
 
 [build-system]
 requires = ["uv_build>=0.9.12,<0.10.0"]
@@ -31,12 +31,12 @@ testpaths = ["tests"]
 addopts = [
     "--strict-config",
     "--strict-markers",
-    "--cov=test_ci",
+    "--cov=python_cicd_template",
     "--cov-report=xml"
 ]
 
 [tool.coverage.run]
-source = ["test_ci"]
+source = ["python_cicd_template"]
 omit = [
     "*/__init__.py"
 ]
